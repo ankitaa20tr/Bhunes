@@ -1,0 +1,23 @@
+# Allow all web crawlers to access all content
+User-agent: *
+Allow: /
+
+# Specific crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Sitemap location
+Sitemap: https://bhunescrafts.com/sitemap.xml
+Allow: /
+
+User-agent: *
+Allow: /
